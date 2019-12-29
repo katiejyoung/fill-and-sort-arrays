@@ -21,15 +21,15 @@ of an array.
 3. min, max, lo, and hi must be declared and used as global constants.
 4. Strings must be passed by reference.
 5. The program must be constructed using procedures. At least the following procedures are required:
-  * main
-  * introduction
-  * get data {parameters: request (reference)}
-  * fill array {parameters: request (value), array (reference)}
-  * sort list {parameters: array (reference), request (value)}
+   * main
+   * introduction
+   * get data {parameters: request (reference)}
+   * fill array {parameters: request (value), array (reference)}
+   * sort list {parameters: array (reference), request (value)}
       * exchange elements (for most sorting algorithms): {parameters: array[i] (reference),
 array[j] (reference), where i and j are the indexes of elements to be exchanged}
-  * display median {parameters: array (reference), request (value)}
-  * display list {parameters: array (reference), request (value), title (reference)}
+   * display median {parameters: array (reference), request (value)}
+   * display list {parameters: array (reference), request (value), title (reference)}
 6. Parameters must be passed by value or by reference on the system stack as noted above.
 7. There must be just one procedure to display the list. This procedure must be called twice: once to display
 the unsorted list, and once to display the sorted list.
