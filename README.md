@@ -1,6 +1,6 @@
-#CS 271 Computer Architecture and Assembly Language
-#Programming Assignment #5
-##Objectives:
+# CS 271 Computer Architecture and Assembly Language
+# Programming Assignment #5
+## Objectives:
 1. using register indirect addressing
 2. passing parameters
 3. generating “random” numbers
@@ -15,7 +15,7 @@ of an array.
 5. Sort the list in descending order (i.e., largest first).
 6. Calculate and display the median value, rounded to the nearest integer.
 7. Display the sorted list, 10 numbers per line.
-##Requirements:
+## Requirements:
 1. The title, programmer's name, and brief instructions must be displayed on the screen.
 2. The program must validate the user’s request.
 3. min, max, lo, and hi must be declared and used as global constants.
@@ -26,7 +26,7 @@ ii. introduction
 iii. get data {parameters: request (reference)}
 iv. fill array {parameters: request (value), array (reference)}
 v. sort list {parameters: array (reference), request (value)}
-*exchange elements (for most sorting algorithms): {parameters: array[i] (reference),
+* exchange elements (for most sorting algorithms): {parameters: array[i] (reference),
 array[j] (reference), where i and j are the indexes of elements to be exchanged}
 vi. display median {parameters: array (reference), request (value)}
 vii. display list {parameters: array (reference), request (value), title (reference)}
