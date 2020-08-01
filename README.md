@@ -1,5 +1,3 @@
-# CS 271 Computer Architecture and Assembly Language
-# Programming Assignment #5
 ## Objectives:
 1. using register indirect addressing
 2. passing parameters
